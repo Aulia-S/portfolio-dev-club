@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* awal header */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 20px;
+  padding-bottom: 8px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid yellow;
+  padding-bottom: 6px;
+}
+
+.jumbotron {
+  background-image: url('../img/bg-jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jumbotron img {
+  width: 170px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px 1px #333;
+}
+
+/* akhir header */
+
+/* awal about */
+section {
+  min-height: 400px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  border-bottom: 2px solid yellow;
+  padding: 6px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+#about p {
+  line-height: 25px;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+}
+/* akhir about */
+
+/* awal portfolio */
+#portfolio .img-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#portfolio .img-container img {
+  width: 500px;
+  margin-bottom: 40px;
+  margin: 0;
+}
+
+.img {
+  margin: 40px;
+}
+
+.img .caption {
+  text-align: center;
+  margin: 0;
+  color: #5e5e5e;
+  font-style: italic;
+}
+/* akhir portfolio */
+
+/* awal contact */
+#contact div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact ul li {
+  list-style-type: none;
+}
+
+#contact ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+#contact img {
+  width: 400px;
+}
+/* akhir contact */
+
+/* awal footer */
+footer {
+  background-color: #333333;
+  color: #b8b8b8;
+  padding: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 80px;
+}
+
+.fa-heart {
+  color: salmon;
+}
+
+footer p {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+footer a {
+  background-color: yellow;
+  color: #333333;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+/* akhir footer */
